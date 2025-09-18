@@ -1,0 +1,1 @@
+python3 dependency_checker.py
