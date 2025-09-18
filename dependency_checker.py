@@ -24,3 +24,6 @@ except ImportError:
 
 if issue_flag:
     sys.exit("Cannot run game with these issues still persisting. Please fix the dependency issues before you run the game again.")
+
+else:
+    import main
