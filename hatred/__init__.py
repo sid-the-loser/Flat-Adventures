@@ -14,5 +14,8 @@
   f#t  f#t   :K#K:   L##,    t#E   E#t  ;#W:       .D#; E#K##i      
    ii   ii  ;##D.    L##,     fE   DWi   ,KK:        tt E##D.       
             ,,,      .,,       :                        E#t         
-                                                        L:       
+                                                        L:
+-------------------------------------------------------------------
+
+"All that remained is PURE HATRED."
 """
