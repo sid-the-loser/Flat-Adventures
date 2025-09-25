@@ -22,6 +22,13 @@ except ImportError:
     missing_module_message("Pygame-CE", "pygame-ce")
     issue_flag = True
 
+try:
+    import hatred
+except ImportError:
+    print("Missing the custom game engine (hatred). " \
+    "Please ensure that the hatred folder is in the same directory as main.py")
+    issue_flag = True
+
 if issue_flag:
     sys.exit("Cannot run game with these issues still persisting. Please fix the dependency issues before you run the game again.")
 
