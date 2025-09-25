@@ -14,6 +14,9 @@ class App:
 
     def get_window_surface(self):
         return self.window
+    
+    def stop_game_loop(self):
+        self.running = False
 
     def run(self):
         while self.running:
@@ -24,8 +27,8 @@ class App:
             delta_time = self.clock.get_time() / 1000.0
 
             if self.current_scene is not None:
-                self.current_scene.update(delta_time)
-                self.current_scene.render(self.window)
+                self.current_scene.update(delta_time, self)
+                self.current_scene.render(self.window, self)
 
             self.window.fill(settings.WINDOW_BACKGROUND)
 

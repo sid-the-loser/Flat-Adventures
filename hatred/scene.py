@@ -1,4 +1,4 @@
-import pygame
+import pygame, app
 
 class Scene:
     def __init__(self):
@@ -10,8 +10,8 @@ class Scene:
     def on_unload(self):
         pass
 
-    def update(self, delta_time: float):
+    def update(self, delta_time: float, _app: app.App):
         pass
 
-    def render(self, surface: pygame.Surface):
+    def render(self, surface: pygame.Surface, _app: app.App):
         pass
